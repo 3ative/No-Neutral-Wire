@@ -1,9 +1,6 @@
 # No-Neutral-Wire
  A guide to adding Home Assistant control to ANY Light switch (No need for extra Neutral wires OR special bulbs)
-
 Watch the YouTube video here: https://youtu.be/KWMDE-plRAY
-
-
 > :warning: Working domestic wiring IS DANGEROUS - Do not attempt if you're not confident or qualified. Always seek advice from a qualified electrician.
 
 ESPHome Code:
@@ -22,7 +19,6 @@ logger:
 
 # Enable Home Assistant API
 api:
-
 ota:
 
 # ** Internal sensing of Wall Switch - Don't show in HA **
@@ -44,10 +40,7 @@ switch:
     id: relay
 ```
 
-💖 Found this useful or want to say 'thanks' and support my efforts 💖
+#### 💖 Found this useful, want to say '*Thanks*' and support my efforts. *CHEERS*🍺
 | Buy me a Coffee | PATREON |
 |-----------------|---------|
 | https://www.buymeacoffee.com/3ative | https://www.patreon.com/3ative |
-
-🍺 CHEERS! 👍
-
