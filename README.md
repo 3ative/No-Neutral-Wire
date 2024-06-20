@@ -20,6 +20,7 @@ logger:
 # Enable Home Assistant API
 api:
 ota:
+  platform: esphome
 
 # ** Internal sensing of Wall Switch - Don't show in HA **
 binary_sensor:
