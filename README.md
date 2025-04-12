@@ -7,7 +7,8 @@ ESPHome Code:
 ```yaml
 esphome:
   name: bathroom_light
-  platform: ESP8266
+
+esp8266:
   board: esp01_1m
 
 wifi:
